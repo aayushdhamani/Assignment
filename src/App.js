@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 
+import DashBoard from "./DashBoard";
 function App() {
+  const textColor = "#4a90e2"; // Define text color
+  const lightBackground = "#eaf2fd"; // Define light background color
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+  <DashBoard/>
+  <div
+      style={{
+        border: `2px solid ${textColor}`, // Border color
+        backgroundColor: lightBackground, // Background color
+        color: textColor, // Text color
+        padding: "20px",
+        borderRadius: "5px", // Border radius
+      }}
+    >
+      This is a colored box with text.
     </div>
+  </>
   );
 }
 
