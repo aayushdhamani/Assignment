@@ -1,3 +1,197 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.wrapper {
+  overflow-x: hidden; /* Hide horizontal overflow */
+  margin:8px;
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 12px;
+  padding: 5px;
+  position: relative;
+}
+/* Default styles */
+.sideBarBtn {
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 70px;
+  font-size: smaller;
+  border-radius: 5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 8px;
+}
+
+.search-button {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .search-bar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .search-input {
+      margin-right: 0;
+      margin-bottom: 8px;
+  }
+}
+
+
+  .Box{
+    margin-Top:12px;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+  }
+  .Box1{
+    margin-Top:12px;
+    background-color: skyblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color:blue;
+    
+  }
+  .Box0{
+    margin-Top:12px;
+    background-color: lightcyan;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color:green;
+    
+  }
+  
+  .Box2{
+    margin-Top:12px;
+    background-color: lightsalmon;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color:orangered
+  }
+  
+  .Box3{
+    margin-Top:12px;
+    background-color: steelblue;
+    border: 1px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color:navy;
+  }
+  
+  .Box4{
+    margin-Top:12px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: green;
+  }
+  
+  .Box5{
+    margin-Top:12px;
+    background-color: pink;
+    border: 1px solid purple;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: purple;
+  }
+  
+  .Box6{
+    margin-Top:12px;
+    background-color: lightseagreen;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: darkgreen;
+  }
+  
+  .Box7{
+    margin-Top:12px;
+    background-color: lightsalmon;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: red;
+  }
+  
+  .Box8{
+    margin-Top:12px;
+    background-color: lightpink;
+    border: 1px solid purple;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: purple;
+  }
+  
